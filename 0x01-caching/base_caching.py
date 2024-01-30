@@ -25,8 +25,7 @@ class BaseCaching():
     def put(self, key, item):
         """ Add an item in the cache
         """
-        raise NotImplementedError("put must be
-                                  implemented in your cache class")
+        raise NotImplementedError("put must be implemented in your cache class")
 
     def get(self, key):
         """ Get an item by key
